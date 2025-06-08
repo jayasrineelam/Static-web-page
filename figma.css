@@ -1,0 +1,64 @@
+.flex-container{
+    display: flex;
+    height:100vh;
+    
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    overflow-y:hidden;
+}
+
+
+.aside {
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(242, 234, 234);
+    gap:20px;
+    width:300px;
+    padding:10px;
+}
+
+.btn1 {
+    float:center;
+    background-color: rgb(102, 142, 235);
+    margin: 10px;
+    width:130px;
+    border:none;
+    padding:10px 2px;   
+}
+.main img {
+    width: 97%;
+    height:43%; 
+    margin:3px;
+}
+
+.main {
+    padding: 3px;
+}
+
+.btn2 {
+    float:right;
+    background-color: rgb(12, 93, 243);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    border:none;
+    width:80px;
+    padding: 7px 3px;
+}
+
+
+.mainul {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    list-style-type: disc; 
+    padding-left: 20px; 
+    color:rgb(221, 231, 237);
+  }
+
+li {
+    padding:4px;
+}

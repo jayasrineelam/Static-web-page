@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="form.css">
+        <script src="form.js" defer> </script>    
+    </head>
+    <body>
+        <div class="flex-container">
+            <form id="userForm">
+                
+                <label for="fname"><b>First Name *</b></label>
+                <input type="text" id="fname" name="fname"/>
+                <div id="fname-container"></div>
+                
+                
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" id="lname" name="lname"/>
+                <div id="lname-container"></div>
+               
+            
+                <label for="Email"><b>Email</b></label>
+                <input type="text" id="email" name="email"/>
+                <div id="email-container"></div>
+               
+
+                <label for="gender"><b>Gender</b></label>
+                <div class="radio-group">
+                <input type="radio" id="Female" name="gender" value="Female"/>
+                <label for="Female">Female</label></div>
+                <div class="radio-group">
+                <input type="radio" id="Male" name="gender" value="Male"/>
+                <label for="Male">Male</label></div>
+                
+                
+                <label for="Hobbies"><b>Select your Hobbies</b></label>
+                <div class="checkbox-group">
+                <input type="checkbox" id="Reading" name="hobby" value="Reading">
+                <label for="reading">Reading</label></div>
+                <div class="checkbox-group">
+                <input type="checkbox" id="Gardening" name="hobby" value="Gardening">
+                <label for="gardening">Gardening</label></div>
+                <div class="checkbox-group">
+                <input type="checkbox" id="Biking" name="hobby" value="Biking">
+                <label for="biking">Biking</label></div>
+
+                <label for="dropdown"><b>Select an option</b></label>
+                <select id="dropdown">
+                    <option value="">--Select--</option>
+                    <option value="Option 1">option 1</option>
+                    <option value="Option 2">option 2</option>
+                    <option value="Option 3">option 3</option>
+                </select>
+                
+                <label for="comments"><b>Comment</b></label>
+                <textarea id="comment" name="comment" rows="3" column="5" placeholder="type your comment here"></textarea>
+
+                <div>
+                    <button id="submitbutton" class="button">Submit</button> 
+                    <button id="cancelbutton" class="button">Cancel</button>
+                </div>    
+            </form>
+            <div id="result"></div>
+        </div>
+    </body>
+</html>    
+                
+                

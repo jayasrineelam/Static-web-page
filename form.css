@@ -1,0 +1,78 @@
+.flex-container{
+  flex-direction: column; 
+    display: flex;
+    width:400px;
+    padding:20px;
+    margin:100px auto;
+    border: 2px solid;
+    border-radius:10px;
+}  
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+.button {
+    background-color:rgb(12, 154, 243);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    border-radius:10px;
+    width:80px;
+    padding: 7px 3px;
+    border:none;
+    float:center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input[type="text"] {
+    display: block;
+    margin-bottom:10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.result-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+input[name="gender"]:checked {
+  outline: 2px solid blue;
+  background-color: lightblue;
+}
+
